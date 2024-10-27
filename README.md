@@ -16,7 +16,7 @@ As well as some pip packages:
 After configuring the ``.env`` file correctly with the information above, as well as installing the pip packages, you should be free to run the server through the bot! Happy playing!
 
 ### Discord Bot & Token:
-Make a bot in the [Discord Developer Portal](https://discord.com/developers/applications). Create your bot. In order to access your token, click the tab "Bot", and copy it. ==Never share it with anyone==. If it is leaked, or if your bot is acting strange, please reset your token immediately. Put your token after ``DISCORD_TOKEN`` in your .env file.
+Make a bot in the [Discord Developer Portal](https://discord.com/developers/applications). Create your bot. In order to access your token, click the tab "Bot", and copy it. **Never share it with anyone**. If it is leaked, or if your bot is acting strange, please reset your token immediately. Put your token after ``DISCORD_TOKEN`` in your .env file.
 
 ### Admin Role
 Make a new role in your server. Go to Server Settings > Roles and press "Create Roll". The name of the role you choose to create is what you put in after ``ADMIN_ROLE`` in your .env file.
