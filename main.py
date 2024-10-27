@@ -163,7 +163,7 @@ async def slash_command(interaction: discord.Interaction):
 async def slash_command(interaction: discord.Interaction):
     required_role = discord.utils.get(interaction.guild.roles, name = ADMIN)
     if required_role in interaction.user.roles:
-        crafty.backup_server()
+        crafty.backup_server(server_id=workingServerId)
         await interaction.response.send_message("Backing up the server...")
     else:
         await interaction.response.send_message("You do not have the required permissions to use this command.")
