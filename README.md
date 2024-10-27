@@ -38,22 +38,22 @@ There are three pip packages neccessary for the functioning of the bot. Use the 
 ### Normal Commands:
 >These commands can be used by anyone.
 
-`/start` -- Starts a minecraft server
-`/stop` -- Stops the minecraft server, given that there are no players active on the server.
-`/restart` -- Restarts the minecraft server, given that there are no players active on the server.
-`/status` -- Displays the status of the minecraft server, such as the IP address, port, version, and active players.
-`/say` -- Sends a message to all players on the server
-`/setserver` -- Designates a server in which all commands are sent to. This allows the discord server to access multiple minecraft servers.
+- `/start` -- Starts a minecraft server
+- `/stop` -- Stops the minecraft server, given that there are no players active on the server.
+- `/restart` -- Restarts the minecraft server, given that there are no players active on the server.
+- `/status` -- Displays the status of the minecraft server, such as the IP address, port, version, and active players.
+- `/say` -- Sends a message to all players on the server
+- `/setserver` -- Designates a server in which all commands are sent to. This allows the discord server to access multiple minecraft servers.
 
 ### Special Commands:
 > These commands can only be used by people with a special discord role. This special role can be set in the .env file.
 
-`/kill` -- Stops the server regardless of active players.
-`/save` -- Makes a backup in CraftyController.
-`/day` -- Sets the time to day
-`/tpcoordinates` -- Teleports a player to coordinates (x, y, z)
-`/tpplayers` -- Teleports one player to another.
-`/command` -- Allows the user to send the server a command.
+- `/kill` -- Stops the server regardless of active players.
+- `/save` -- Makes a backup in CraftyController.
+- `/day` -- Sets the time to day
+- `/tpcoordinates` -- Teleports a player to coordinates (x, y, z)
+- `/tpplayers` -- Teleports one player to another.
+- `/command` -- Allows the user to send the server a command.
 
 ## Future Plans & Issues
 No plans so far, but feel free to submit some into issues. If you are having problems launching the program, or have questions in general, feel free to also submit them into issues, but please consult this document first. Be sure to tag your issues correctly!
