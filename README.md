@@ -56,4 +56,4 @@ There are three pip packages neccessary for the functioning of the bot. Use the 
 - `/command` -- Allows the user to send the server a command.
 
 ## Future Plans & Issues
-No plans so far, but feel free to submit some into issues. If you are having problems launching the program, or have questions in general, feel free to also submit them into issues, but please consult this document first. Be sure to tag your issues correctly!
+No plans so far, but feel free to submit some into issues. If you are having problems launching the program, or have questions in general, feel free to also submit them into issues, but please consult this document first. Be sure to tag your issues correctly! I am also available on the Crafty Controller discord server at ``itsagrumpyparrotman`` -- feel free to DM me!
