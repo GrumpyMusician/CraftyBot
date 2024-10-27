@@ -1,5 +1,5 @@
 # Minecraft Crafty Controller
-This repository is aimed at allowing a user to control CraftyController through a Discord Bot using Python. 
+This repository is aimed at allowing a user to control Crafty Controller through a Discord Bot using Python. 
 
 ## How to Use
 Using this application is very simple and easy. You will need:
@@ -22,16 +22,16 @@ Make a bot in the [Discord Developer Portal](https://discord.com/developers/appl
 Make a new role in your server. Go to Server Settings > Roles and press "Create Roll". The name of the role you choose to create is what you put in after ``ADMIN_ROLE`` in your .env file.
 
 ### IP Address
-This is your IP Address or URL of your server. I'm expecting that this is self-hosted, in which your IP Address and Port of the location of CraftyController is needed. This might look like ``https://123.456.7.890:1234/``. Put this address after ``ADDRESS`` in your .env file.
+This is your IP Address or URL of your server. I'm expecting that this is self-hosted, in which your IP Address and Port of the location of Crafty Controller is needed. This might look like ``https://123.456.7.890:1234/``. Put this address after ``ADDRESS`` in your .env file.
 
-### CraftyController
+### Crafty Controller
 In order to get the token, you will need to go to Crafty Configuration (accessible through the gear icon on the top right corner) > edit user > API Keys, and CREATE A NEW API TOKEN. Pick a name, check all check boxes, and select full access at the end. After that, press "Get a Token" and copy the token displayed. Put this token after the ``CRAFTY_TOKEN`` in your .env file.
 
 ### Pip packages
 There are three pip packages neccessary for the functioning of the bot. Use the following commands to install them:
 - ``pip install discord.py`` -- Allows for the program to control the bot
 - ``pip install python-dotenv`` -- Allows for the program to read the .env file
-- ``pip install crafty-client`` -- Allows for the program to access CraftyController.
+- ``pip install crafty-client`` -- Allows for the program to access Crafty Controller.
 
 ## Commands
 *All commands here are slash commands.*
@@ -49,7 +49,7 @@ There are three pip packages neccessary for the functioning of the bot. Use the 
 > These commands can only be used by people with a special discord role. This special role can be set in the .env file.
 
 - `/kill` -- Stops the server regardless of active players.
-- `/save` -- Makes a backup in CraftyController.
+- `/save` -- Makes a backup in Crafty Controller.
 - `/day` -- Sets the time to day
 - `/tpcoordinates` -- Teleports a player to coordinates (x, y, z)
 - `/tpplayers` -- Teleports one player to another.
