@@ -13,7 +13,7 @@ As well as some pip packages:
 - dotenv
 - crafty_client
 
-After configuring the ``.env`` file correctly with the information above, as well as installing the pip packages, you should be free to run the server through the bot! Happy playing!
+After configuring the ``.env`` file correctly with the information above, as well as installing the pip packages, you should be free to run the server through the bot. You only need the ``main.py`` and ``.env`` file. All other files in the repository are not neccessary. A ``.env`` file is needed to modifiable information is easy to access initially and better securred after configuration. If the ``.env`` file does not appear in your folder, try showing hidden files. Happy playing!
 
 ### Discord Bot & Token:
 Make a bot in the [Discord Developer Portal](https://discord.com/developers/applications). Create your bot. In order to access your token, click the tab "Bot", and copy it. **Never share it with anyone**. If it is leaked, or if your bot is acting strange, please reset your token immediately. Put your token after ``DISCORD_TOKEN`` in your .env file.
