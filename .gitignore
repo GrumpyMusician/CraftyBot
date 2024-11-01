@@ -1,0 +1,2 @@
+# Instructs Github to ignore this file on future commits. Don't worry, this is just to make my life easier :)
+.env
